@@ -20,7 +20,7 @@ class ReadProperties {
         try{
             properties.load(new FileInputStream("src/main/resources/config.properties"));
         }catch(Exception e){
-            log.error("读取properties文件出错"+e);
+            log.error("fail to read config file"+e);
         }
         return properties;
     }
