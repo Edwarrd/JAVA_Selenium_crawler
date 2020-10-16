@@ -118,8 +118,6 @@ public class Web_tyc {
                         System.out.println("name match, write into the file");
                         String Comp_Url = first_comp.getAttribute("href");
                         String Type_comp = driver.findElement(By.cssSelector(".result-list.sv-search-container>div:first-child .content .tag-list .tag-common.-primary.-new")).getText();
-                        //跳入公司详情页面
-                        //之前有验证码检查
                         driver.get(Comp_Url);
                         detail_comp(first_comp_name,driver,Type_comp);
                     }
