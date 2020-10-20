@@ -24,6 +24,8 @@ based on my test, only 4-5/min
 
 大概每分钟四到五条吧。绝了。
 
+I jsut finished a new crawler program which is developed on springboot and use selenium & httpclient. Since I have not find an useable tool to deal with verificatoin code, this program still need manual processing, but, it does much faster than this one. It could grad at least 2000+ data per min based on my test:)
+I am testing that program right now and try to fix some bugs. I will upload that program when it feels ready.
 
 最近又完成了一个新的爬虫程序，是用selenium和httpclient写的，基于springboot的环境。依旧是人工处理验证码（对不起这个我真的一时半会做不出来，如果手头上有方便的工具可以自己加到code里试试），但速度比selenium提高了不少，基本上一个小时可以抓2000+的数据，如果开多线程的话速度还可以更快。
 这几天在进行测试，完成后会传上来。
