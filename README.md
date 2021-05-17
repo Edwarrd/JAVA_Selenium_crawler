@@ -31,11 +31,3 @@ I am testing that program right now and try to fix some bugs. I will upload that
 这几天在进行测试，完成后会传上来。
 
 
-
-
-10.26
-
-httpclient的程序已经搞出来了，速度比这个要快不少，这一周实际运行的过程中比较稳定，已经取代了这个程序，一上午三个小时能抓5000条（其实大部分时间主要是浪费在验证上了）。不过因为各种原因，现在不方便po上来，所以......。
-
-不过大体思路是有的。主要就是先获取一个cookie，然后设定请求头携带这个cookie去访问，然后再用jsoup进行解析。原理倒是不难，只是刚开始的时候cookie的完整性绊了我一脚。无论是editthecookie 还是开发者模式都无法拿到完整的cookie（也可能是我的姿势有问题），后来用fiddler逐步分析才搞明白cookie的构成。总之不是一个很难的程序，多试试就可以了。
-
